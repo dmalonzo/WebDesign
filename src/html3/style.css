@@ -1,0 +1,132 @@
+div.banner
+{
+    position: absolute;
+    background-color: #6F0000;
+    width: 100vw;
+    height: 75px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+#logo
+{
+    position: absolute;
+    width: 457px;
+    height: 75px;
+    left: 25px;
+}
+
+
+div.navbar
+{
+    position: absolute;
+    width: 100vw;
+    height: 37px;
+    top: 77px;
+    background-color: #e5e8e8;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+ul#nav
+{
+  list-style:none;
+  margin-top: 6pt;
+  padding-top: 0pt;
+  padding-left: 3pt;
+
+}
+
+ul#nav li
+{
+    display: inline;
+}
+
+ul#nav li a{
+text-decoration: none;
+padding: 5px;
+font-size: 10pt;
+font-weight: bold;
+font-family: Verdana;
+border-right: 1px solid black;
+}
+
+div.side
+{
+
+    position: absolute;
+    width: 14vw;
+    top: 150px;
+    left: 3vw;
+    background-color: #e5e8e8;
+    border-style: solid;
+    border-color: darkgrey;
+    border-width: 1px;
+}
+
+
+#title
+{
+font-weight: bold;
+color: #990000;
+font-size: 19pt;
+}
+
+.head
+{
+font-weight: bold;
+font-size: 12pt;
+color: #990000;
+}
+
+.navlink
+{
+    color: gray;
+}
+
+.mlink
+{
+    color: #990000;
+}
+
+a.navlink:visited
+{
+    color: gray;
+}
+
+a.mlink:visited
+{
+    color: purple;
+}
+
+#slink
+{
+    list-style: none;
+    padding-left: 5pt;
+    color: #990000;
+}
+
+#slink li
+{
+    padding: 2px;
+}
+
+#slink li:before
+{
+    content: "\00BB \0020";
+}
+
+div.main
+{
+    position: absolute;
+    background-color: white;
+    width: 60vw;
+    right: 20vw;
+    top: 125px;
+}
+
+#bold
+{
+    font-weight: bold;
+}
