@@ -7,7 +7,36 @@ div.banner
     border-style: solid;
     border-color: black;
     border-width: 1px;
+    z-index: +100;
 }
+
+div.corner
+{
+    position: absolute;
+    z-index: +101;
+    right: 75px;
+    top: 36px;
+}
+
+div.topright
+{
+    position: absolute;
+    z-index: +101;
+    right: 75px;
+    top: 5px;
+    color: white;
+    font-size: 11pt;
+}
+
+.submit
+{
+    background-color: #6F0000;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+}
+
 #logo
 {
     position: absolute;
@@ -22,7 +51,7 @@ div.navbar
     position: absolute;
     width: 100vw;
     height: 37px;
-    top: 77px;
+    top: 83px;
     background-color: #e5e8e8;
     border-style: solid;
     border-color: black;
@@ -49,7 +78,7 @@ padding: 5px;
 font-size: 10pt;
 font-weight: bold;
 font-family: Verdana;
-border-right: 1px solid black;
+border-right: 1px solid gray;
 }
 
 div.side
@@ -57,7 +86,7 @@ div.side
 
     position: absolute;
     width: 14vw;
-    top: 150px;
+    top: 155px;
     left: 3vw;
     background-color: #e5e8e8;
     border-style: solid;
@@ -80,9 +109,16 @@ font-size: 12pt;
 color: #990000;
 }
 
+
+
 .navlink
 {
     color: gray;
+}
+
+.trlink
+{
+    color: orange;
 }
 
 .mlink
@@ -123,7 +159,7 @@ div.main
     background-color: white;
     width: 60vw;
     right: 20vw;
-    top: 125px;
+    top: 130px;
 }
 
 #bold
