@@ -1,0 +1,115 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+
+
+#main
+{
+    position: absolute;
+    top: 23vh;
+}
+
+#mpic
+{
+    position: absolute;
+    left: 50px;
+}
+
+#mtext
+{
+    position: absolute;
+    left: 450px;
+    width: 49vw;
+    font-size: 12pt
+}
+
+#bold
+{
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.head
+{
+    background-color: yellow;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    color: black;
+    font-size: 13pt;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+
+#box1, #box2, #box3, #box4
+{
+    position: absolute;
+    background-color: white;
+    top: 63vh;
+    width: 222px;
+    height: 255px;
+    left: 60px;
+    color: black;
+    font-size: 9pt;
+}
+
+#box2
+{
+    left: 342px;
+}
+
+#box3
+{
+    left: 624px;
+}
+#box4
+{
+    left: 906px;
+}
+
+.imgb
+{
+    position: absolute;
+    top: 21px;
+}
+
+.textb
+{
+    position: absolute;
+    top: 120px;
+    left: 15px;
+}
+
+
+.button
+{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    height: 25px;
+    width: 75px;
+}
+
+
+#blurb
+{
+    position: absolute;
+    color: lightyellow;
+    font-size: 9pt;
+    font-weight: bold;
+    z-index=+20;
+    top: 59vh;
+    left: 20vw;
+}
+
+#diskimage
+{
+    position: absolute;
+    color: yellow;
+    font-size: 10pt;
+    top: 55vh;
+    left: 4vw;
+}

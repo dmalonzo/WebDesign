@@ -1,0 +1,64 @@
+
+#banner
+{
+    position: absolute;
+    background-color: #2c97de;
+    top: 2vh;
+    left: 1vw;
+    width: 95vw;
+    height: 6vh;
+    color: white;
+    font-size: 16pt;
+}
+
+#title
+{
+    position: absolute;
+    margin-top: 1vh;
+}
+
+#contact
+{
+    position: absolute;
+    right: 4vw;
+    top: 9vh;
+    height: 12vh;
+    text-align: left;
+}
+
+#phonenum
+{
+    font-size: 25pt;
+    color: #2c97de;
+    font-weight: bold;
+}
+
+#main
+{
+    position: absolute;
+    right: 4vw;
+    width: 77vw;
+    height: 76vh;
+    top: 23vh;
+    border-top: solid 2px black;
+}
+
+#navbar
+{
+    position: absolute;
+    top: 8vh;
+    left: 20vw;
+}
+
+#home
+{
+    position: relative;
+    top:13px;
+}
+
+#phoneicon
+{
+    position: absolute;
+    top: 22px;
+    left: -35px;
+}

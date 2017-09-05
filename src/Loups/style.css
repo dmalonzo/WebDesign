@@ -1,0 +1,70 @@
+#banner, #end
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 94vw;
+    height: 12vh;
+    background-color: lightgrey;
+    border-radius: 25px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 1vh;
+}
+
+.boldt
+{
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+#left
+{
+    position: absolute;
+    background-color: lightgrey;
+    left: 3vw;
+    height: 53vh;
+    width: 16vw;
+    top: 17vh;
+    border-radius: 25px;
+}
+
+#main
+{
+    position: absolute;
+    right: 3vw;
+    height: 62vh;
+    width: 76vw;
+    top: 17vh;
+    background-color: grey;
+    border-radius: 25px;
+}
+
+#mformat
+{
+    position: absolute;
+    left: 15px;
+}
+
+
+#end
+{
+    margin-top: 85vh;
+}
+
+.center
+{
+    position: absolute;
+    vertical-align: middle;
+    left: 25px;
+}
+
+.empty
+{
+    height: 100%;
+}

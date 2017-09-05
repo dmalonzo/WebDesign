@@ -1,0 +1,68 @@
+#banner
+{
+    position: absolute;
+    width: 100vw;
+    height: 10vh;
+    background-color: lightgrey;
+    color: black;
+}
+
+#logo
+{
+    position: absolute;
+    padding: 5px;
+}
+
+#phone
+{
+    position:absolute;
+    right: 20px;
+    z-index: +1;
+    top: 0px;
+    font-weight: bold;
+    font-size: 20pt;
+    font-color: black;
+}
+
+#navbar
+{
+    position: absolute;
+    width: 100vw;
+    height: 10vh;
+    top: 11vh;
+    background-color:linen;
+}
+
+ul#nav
+{
+    margin-top: 20px;
+    list-style: none;
+}
+
+ul#nav li
+{
+    display: inline;
+}
+
+ul#nav li a
+{
+    text-decoration: none;
+    padding: 5px;
+}
+
+ul#nav li:not(:first-of-type)
+{
+    border-left: 1px solid black;
+}
+
+#search
+{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+#navlink
+{
+    color: black;
+}
